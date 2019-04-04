@@ -14,5 +14,22 @@
 	`git remote add github https://github.com/ratihqashrina/belajar-git.git
 - Mengaupload repo lokal ke remote
 	`git push -u nama-remote nama-branch`
--mendownload/mengambil 
+- Mendownload/mengambil perubahan dari remote ke working folder
+	`git pull nama-remote nama branch`
+- Menghapus perubahan di staging
+	`git reset`
+- Menghapus perubahan di staging dan working folder
+	`git reser --hard`
+- Melihat daftar branch
+	`git branch --all`
+- Membuat branch baru 
+	`git branch nama-branch`
+- Pindah ke branch tertentu 
+	`git checkout nama-branch
+- Merge branch tertentu ke master 
+	`git checkout master git merge nama-brach`
+- Menghapus branch tertentu di lokal 
+	`git branch -d nama-branch`
+- Menghapus branch tertentu di remote
+	`git branch nama-remote nama-branch`
 
